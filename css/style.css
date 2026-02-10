@@ -1,0 +1,50 @@
+:root {
+    --primary-color: #0d6efd; 
+    --secondary-color: #6c757d;
+    --bg-light: #f8f9fa;
+    --bg-dark: #212529;
+    --text-light: #212529;
+    --text-dark: #f8f9fa;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15) !important;
+    cursor: pointer;
+}
+
+body.dark-mode {
+    background-color: var(--bg-dark) !important;
+    color: var(--text-dark);
+}
+
+body.dark-mode .navbar {
+    background-color: #000 !important;
+}
+
+body.dark-mode .card {
+    background-color: #343a40; 
+    color: white; 
+}
+
+body.dark-mode .text-muted {
+    color: #ced4da !important; 
+}
+
+.theme-toggle-btn {
+    cursor: pointer;
+    font-size: 1.2rem;
+    background: none;
+    border: none;
+    color: white;
+}
