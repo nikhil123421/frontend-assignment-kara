@@ -25,8 +25,10 @@ This is a responsive frontend assignment for KARA Technologies. It features a se
 
 ## Folder Structure
 /frontend-assignment-nikhil
-  ├── index.html        (Login Page)
-  ├── dashboard.html    (Dashboard Page)
-  ├── script.js         (Validation Logic)
-  ├── style.css         (Custom Styles)
-  └── README.md         (Documentation)
+  ├── css/
+  │    └── style.css       (Custom Styles & Dark Mode Logic)
+  ├── js/
+  │    └── script.js       (Validation & Toggle Logic)
+  ├── index.html           (Login Page - Entry Point)
+  ├── dashboard.html       (Dashboard Page)
+  └── README.md            (Project Documentation)
