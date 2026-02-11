@@ -1,5 +1,7 @@
 # Secure Login & Dashboard UI
 
+🚀 **Live Demo**: https://frontend-task-chi-ashen.vercel.app/
+
 ## Project Overview
 This is a responsive frontend assignment for KARA Technologies. It features a secure-aware login page and a responsive dashboard using a card-based layout.
 
